@@ -174,9 +174,7 @@ class NotebookTestBase(TestCase):
                     asyncio.set_event_loop(asyncio.new_event_loop())
                     # Patch the current loop in order to match production
                     # behavior
-                    import nest_asyncio
 
-                    nest_asyncio.apply()
                 # don't register signal handler during tests
                 app.init_signal = lambda : None
                 # clear log handlers and propagate to root for nose to capture it

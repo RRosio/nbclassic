@@ -99,3 +99,27 @@ ensureSymlink(
   "node_modules/google-caja-sanitizer",
   "nbclassic/static/components/google-caja-sanitizer"
 );
+ensureSymlink(
+  "node_modules/react",
+  "nbclassic/static/components/react"
+);
+ensureSymlink(
+  "node_modules/react-dom",
+  "nbclassic/static/components/react-dom"
+);
+ensureSymlink(
+  "node_modules/es6-promise",
+  "nbclassic/static/components/es6-promise"
+);
+ensureSymlink(
+  "node_modules/requirejs",
+  "nbclassic/static/components/requirejs"
+);
+ensureSymlink(
+  "node_modules/requirejs-plugins",
+  "nbclassic/static/components/requirejs-plugins"
+);
+ensureSymlink(
+  "node_modules/requirejs-text",
+  "nbclassic/static/components/requirejs-text"
+);

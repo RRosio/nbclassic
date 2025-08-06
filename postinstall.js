@@ -95,3 +95,7 @@ ensureSymlink(
   "node_modules/mathjax",
   "nbclassic/static/components/MathJax"
 );
+ensureSymlink(
+  "node_modules/google-caja-sanitizer",
+  "nbclassic/static/components/google-caja-sanitizer"
+);
